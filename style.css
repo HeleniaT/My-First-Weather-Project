@@ -5,5 +5,10 @@ h1 {
 .contact-btn {
   display: block;
   margin: 0 auto;
+  margin-bottom: 10px;
   width: 200px;
+}
+.form {
+  display: table;
+  margin: 0 auto;
 }
