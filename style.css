@@ -1,14 +1,36 @@
+body {
+  font-family: Cerebri Sans, Helvetica, Arial, sans-serif;
+}
+
 h1 {
   text-align: center;
-  color: blue;
+  font-size: 34px;
+  line-height: 48px;
+  font-weight: 900;
+  margin: 0;
 }
-.contact-btn {
+h2 {
+  text-align: left;
+  font-size: 34px;
+  margin: 0;
+}
+button {
   display: block;
   margin: 0 auto;
-  margin-bottom: 10px;
-  width: 200px;
+  background: purple;
+  color: #fff;
+  padding: 10px 10px;
 }
-.form {
-  display: table;
-  margin: 0 auto;
+
+p {
+  text-align: left;
+  font-size: 40px;
+  margin: auto;
+}
+
+ul {
+  text-align: right;
+  font-size: 20px;
+  margin: auto;
+  line-height: 80px;
 }

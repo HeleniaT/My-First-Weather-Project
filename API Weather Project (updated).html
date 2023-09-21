@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Weather Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
+    <link rel="stylesheet" href="Source/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form id="search-form">
+            <div class="card-group">
+                <div class="card">
+                    <div class="card-body">
+                        <input id="city-input" placeholder="city search" />
+                        <input class="btn btn-primary" type="submit" value="Submit" />
+                        <p class="card-text">
+                            <button class="btn btn-success w-10" id="current-location-button">
+                                Current
+                            </button>
+                        <h1 id="city">Orlando</h1>
+                        <h2><span class="temperature" id="temperature"></span><span class="units">°F|°C</span></h2>
+
+                        <p>
+                        <div id="date"></div>
+                        <div id="description"></div>
+                        </p>
+
+                        <ul>
+                            Precipitation: <span id="humidity"></span>%
+                            Humidity: <span id="humidity"></span>95%
+                            Wind: <span id="wind"></span>mph
+                        </ul>
+
+                        </ul>
+                        </p>
+                        <div class="row">
+                            <div class="col-md-2">Mon ☀️</div>
+                            <div class="col-md-2">Tue ☀️</div>
+                            <div class="col-md-2">Wed ☀️</div>
+                            <div class="col-md-2">Thurs ☀️</div>
+                            <div class="col-md-2">Fri ☀️</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </form>
+    </div>
+    <script src="Source/app.js"></script>
+
+</body>
+
+</html>
